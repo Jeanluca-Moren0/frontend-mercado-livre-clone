@@ -2,6 +2,7 @@
   "name": "youtube-clone-mercadolivre",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jeanluca-moren0.github.io/frontend-mercado-livre-clone/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

@@ -1,9 +1,22 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Container, Rounded, ShakeHandsIcon } from "./styles";
 
 const Header: React.FC = () => {
-  return <Container>Interface reproduzida com a Rocketseat</Container>;
+  return (
+    <Container>
+      <Rounded>
+        <span>
+          <ShakeHandsIcon />
+        </span>
+      </Rounded>
+      <span className="title">
+        Mercado
+        <br />
+        Clone
+      </span>
+    </Container>
+  );
 };
 
 export default Header;
